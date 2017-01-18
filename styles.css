@@ -168,6 +168,14 @@ Example on how to use media queries..
 
 /*=================== Side Menu - flex-item 1a ====================================*/
 
+/*body {
+  width: auto;
+  }*/
+
+main {
+  flex: 1 0 auto; /* 1 => fill the available space, 0 => do not shrink, auto => compute the size of the flex item automatically*/
+}
+
   aside {
     display: none;
   }
@@ -228,10 +236,6 @@ Example on how to use media queries..
     flex: 1 0 auto; /*this makes sure the section grows to fill the entire available space*/
     list-style-type: none;
     padding: 5px 10px 0px;
-  }
-
-  ul.music-list p:not(first-child) {
-    flex: 0 0 90%;
   }
 
   li span.catty-cloud {

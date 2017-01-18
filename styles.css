@@ -230,10 +230,6 @@ Example on how to use media queries..
     padding: 5px 10px 0px;
   }
 
-  ul.music-list p:not(first-child) {
-    flex: 0 0 90%;
-  }
-
   li span.catty-cloud {
     display: none;
   }

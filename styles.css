@@ -135,9 +135,6 @@ footer img {
 div.footer--artist-name-song {
   margin-right: auto; /*When you use margin:auto on a flex-item, the direction (left, right or both) that has the valueauto will take up any empty spaces available.*/
   align-self: center;
-  /*display: flex;
-  flex-direction: column;
-  align-content: center;*/
 }
 
 .footer--artist-name-song li {
@@ -151,4 +148,10 @@ div.footer-controls {
   align-items: center;
   justify-content: space-between;
   width: 50%;
+}
+
+/*===================Media Queries====================================*/
+
+@@media screen and (max-width) {
+  
 }
